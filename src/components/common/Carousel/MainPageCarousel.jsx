@@ -205,7 +205,7 @@ const List = styled.div`
   flex-direction: column;
   align-items: center;
   background-color: white;
-  height: 300px; // 220px에서 줄임
+  height: 300px;
   width: 200px;
   border-radius: 10px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
@@ -233,7 +233,7 @@ const TextBox = styled.div`
 `;
 
 const TitleText = styled.h4`
-  font-family: 'GumiRomanceTTF'; // 낭만있구미체
+  font-family: 'GumiRomanceTTF';
   font-size: 24px;
   opacity: 0.8;
   padding: 2px;
@@ -241,19 +241,19 @@ const TitleText = styled.h4`
   margin: 3px 0;
   text-align: center;
   white-space: nowrap; // 한줄 고정
-  overflow: hidden; // 넘치면 숨김
+  overflow: hidden;
   text-overflow: ellipsis; // 넘친 부분 ... 표시
   width: 100%;
 `;
 
 const PriceText = styled.p`
-  font-family: 'BMJUA'; // 배민 주아체
+  font-family: 'BMJUA';
   font-size: 20px;
   margin: 3px 0;
 `;
 
 const StarText = styled.p`
-  font-family: 'BMJUA'; // 배민 주아체
+  font-family: 'BMJUA';
   font-size: 20px;
   margin: 3px 0;
 `;
@@ -267,6 +267,6 @@ const Overlay = styled.div`
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.5); // 투명도 조정
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: 10; // 이미지 위에 표시
 `;
